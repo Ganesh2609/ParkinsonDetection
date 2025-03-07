@@ -65,7 +65,7 @@ class Wav2Vec2PretrainDataset(Dataset):
 
 def get_data_loaders(csv_path, root1, root2=None, batch_size:int=32, num_workers:int=12, prefetch_factor:int=2):
     
-    age_filter = ['sixties', 'seventies', 'eighties', 'nineties']
+    age_filter = [i for i in range(55, 90)]
 
     dataset1 = Wav2Vec2PretrainDataset(csv_path=csv_path, root=root1, age_filter=age_filter)
     dataset2 = Wav2Vec2PretrainDataset(csv_path=csv_path, root=root2, age_filter=age_filter)
