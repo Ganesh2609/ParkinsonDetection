@@ -90,6 +90,7 @@ This project develops an advanced system for detecting Parkinson's disease (PD) 
 │   └── final_pretrainer.py  # Contrastive pretraining
 └── Train data/
     └── Graphs/              # Training visualizations
+    └── Logs/              # Training logs
 ```
 
 ## 📊 Results & Visualizations
