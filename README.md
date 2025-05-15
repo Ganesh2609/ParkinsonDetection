@@ -62,7 +62,7 @@ This project develops an advanced system for detecting Parkinson's disease (PD) 
 ## 📁 Repository Structure
 
 ```
-ParkinsonDetection/
+
 ├── Direct Model Training/
 │   ├── Coattention model/
 │   │   ├── model.py           # Basic co-attention model
@@ -98,41 +98,41 @@ ParkinsonDetection/
 
 <div align="center">
 
-![Co-attention Reconstructed STFT](ParkinsonDetection/Train%20data/Graphs/coattention_reconstructed_stft.png)
+![Co-attention Reconstructed STFT](Train%20data/Graphs/coattention_reconstructed_stft.png)
 *Co-attention Model - Reconstructed STFT Features*
 
-![Co-attention Reconstructed STFT Wave2Vec](ParkinsonDetection/Train%20data/Graphs/coattention_reconstructed_stft_wave2vec.png)
+![Co-attention Reconstructed STFT Wave2Vec](Train%20data/Graphs/coattention_reconstructed_stft_wave2vec.png)
 *Co-attention Model - Reconstructed STFT with Wave2Vec Features*
 
 ### Model Comparisons
 
-![ConvNeXt Mel Only](ParkinsonDetection/Train%20data/Graphs/convxnet_mel_only.png)
+![ConvNeXt Mel Only](Train%20data/Graphs/convxnet_mel_only.png)
 *ConvNeXt - Mel Spectrogram Only*
 
-![ConvNeXt STFT Only](ParkinsonDetection/Train%20data/Graphs/convxnet_stft_only.png)
+![ConvNeXt STFT Only](Train%20data/Graphs/convxnet_stft_only.png)
 *ConvNeXt - STFT Only*
 
-![ConvNeXt Mel STFT Combined](ParkinsonDetection/Train%20data/Graphs/convxnet_mel_stft_both.png)
+![ConvNeXt Mel STFT Combined](Train%20data/Graphs/convxnet_mel_stft_both.png)
 *ConvNeXt - Combined Mel & STFT Features*
 
 ### Vision Transformer Performance
 
-![ViT Google Mel No Pretraining](ParkinsonDetection/Train%20data/Graphs/vit_google_mel_no_pretraining.png)
+![ViT Google Mel No Pretraining](Train%20data/Graphs/vit_google_mel_no_pretraining.png)
 *Vision Transformer - Mel Spectrogram (No Pretraining)*
 
-![ViT Google Mel Only](ParkinsonDetection/Train%20data/Graphs/vit_google_mel_only.png)
+![ViT Google Mel Only](Train%20data/Graphs/vit_google_mel_only.png)
 *Vision Transformer - Mel Spectrogram Only*
 
-![ViT Google STFT No Pretraining](ParkinsonDetection/Train%20data/Graphs/vit_google_stft_no_pretraining.png)
+![ViT Google STFT No Pretraining](Train%20data/Graphs/vit_google_stft_no_pretraining.png)
 *Vision Transformer - STFT (No Pretraining)*
 
-![ViT Google STFT Only](ParkinsonDetection/Train%20data/Graphs/vit_google_stft_only.png)
+![ViT Google STFT Only](Train%20data/Graphs/vit_google_stft_only.png)
 *Vision Transformer - STFT Only*
 
-![ViT Google Mel STFT Combined](ParkinsonDetection/Train%20data/Graphs/vit_google_mel_stft_both.png)
+![ViT Google Mel STFT Combined](Train%20data/Graphs/vit_google_mel_stft_both.png)
 *Vision Transformer - Combined Features*
 
-![ViT Google Mel STFT No Pretraining](ParkinsonDetection/Train%20data/Graphs/vit_google_mel_stft_no_pretraining.png)
+![ViT Google Mel STFT No Pretraining](Train%20data/Graphs/vit_google_mel_stft_no_pretraining.png)
 *Vision Transformer - Combined Features (No Pretraining)*
 
 </div>
