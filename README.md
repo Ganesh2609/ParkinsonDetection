@@ -252,8 +252,8 @@ This project was developed as part of the Biomedical Signal Processing course at
 
 ## 👥 Team
 
-- **Arun Prasad TD** (CB.EN.U4AIE22004)
 - **Ganesh Sundhar S** (CB.EN.U4AIE22017)
+- **Arun Prasad TD** (CB.EN.U4AIE22004)
 - **Hari Krishnan N** (CB.EN.U4AIE22020)
 - **Shruthikaa V** (CB.EN.U4AIE22047)
 
